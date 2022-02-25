@@ -1,0 +1,41 @@
+form {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  left: 50px;
+  bottom: 10px;
+
+  input {
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    border: 0;
+    background: #4e4dff;
+    color: #ffcf22;
+    text-align: center;
+
+    &::placeholder {
+      text-align: center;
+      color: #ffcf22;
+    }
+  }
+
+  button {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border: 0;
+    margin-left: 5px;
+    background-color: #ffcf22;
+    color: #050e64;
+
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
